@@ -1,0 +1,49 @@
+baseURL = "https://yourziro.github.io/"
+defaultContentLanguage = "id"
+
+paginate = 10
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+
+enableEmoji = true
+
+googleAnalytics = "G-8GNGZQ1604"
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  author = "authors"
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+[related]
+ threshold = 0
+ toLower = false
+
+[[related.indices]]
+  name = "authors"
+  weight = 100
+
+[[related.indices]]
+  name = "categories"
+  weight = 75
+
+[[related.indices]]
+name = "tags"
+weight = 50
+
+[[related.indices]]
+  name = "date"
+  weight = 10
+
+[[related.indices]]
+  applyFilter = false
+  name = 'fragmentrefs'
+  type = 'fragments'
+  weight = 10

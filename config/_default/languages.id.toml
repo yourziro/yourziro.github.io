@@ -1,0 +1,20 @@
+languageCode = "id"
+languageName = "Indonesia"
+weight = 1
+
+title = "Fauzira Alpiandi"
+
+[params]
+  displayName = "Indonesia"
+  isoCode = "id"
+  rtl = false
+  dateFormat = "Monday, 2 January 2006"
+  logo = "imgs/logo.png"
+  description = "Just an enthusiastic frontend developer processing coffee into code, thirsty for knowledge and pursued by curiosity."
+  copyright = "Copyright &copy; Fauzira Alpiandi 2024"
+
+[author]
+  name = "Fauzira Alpiandi"
+  image = "imgs/hero.jpg"
+  headline = "fwzyrln_"
+  links = [ { instagram = "https://instagram.com/fauziralpiandi" } ]

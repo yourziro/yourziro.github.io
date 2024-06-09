@@ -1,0 +1,121 @@
+colorScheme = "noir"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+disableImageOptimization = true
+disableTextInHeader = false
+
+defaultBackgroundImage = "/imgs/background.jpg"
+defaultFeaturedImage = "/imgs/background.jpg"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+[header]
+  layout = "fixed-gradient"
+
+[homepage]
+  layout = "background"
+  homepageImage = "/imgs/background.jpg"
+  showRecent = false
+  showRecentItems = 1
+  showMoreLink = false
+  showMoreLinkDest = "/postingan"
+  cardView = true
+  cardViewScreenWidth = true
+  layoutBackgroundBlur = true
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = false
+
+[article]
+  showDate = true
+  showViews = true
+  showLikes = true
+  showComments = false
+  showDateOnlyInArticle = false
+  showDateUpdated = true
+  showAuthor = false
+  showAuthorBottom = false
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  # editURL = ""
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = false
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 1
+  showTaxonomies = true
+  showAuthorsBadges = false
+  showWordCount = true
+  sharingLinks = [ "email", "facebook", "pinterest", "telegram", "whatsapp", "x-twitter" ]
+  showZenMode = true
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = true
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showComments = false
+  showTableOfContents = false
+  showCards = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = true
+  constrainItemsWidth = true
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = false
+
+[term]
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = true
+
+[sitemap]
+  excludedKinds = []
+
+[verification]
+  google = "XwiuNOh9ibj8Ho3y-od5o85IusGF7ZcxUZgnIyeJ9Ao"
+
+[firebase]
+  apiKey = "AIzaSyANIOacAJ_6BpQnoO3wvPebCP0__KRjK_U"
+  authDomain = "yourziro.firebaseapp.com"
+  projectId = "yourziro"
+  storageBucket = "yourziro.appspot.com"
+  messagingSenderId = "258486544932"
+  appId = "1:258486544932:web:162a1f4a4ee2114d07c6b1"
+  measurementId = "G-8GNGZQ1604"

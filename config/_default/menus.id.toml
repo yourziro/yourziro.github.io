@@ -1,0 +1,35 @@
+[[main]]
+  pre = "stars"
+  name = "Ringkasan"
+  pageRef = "ringkasan"
+  weight = 10
+
+[[main]]
+  pre = "send"
+  name = "Postingan"
+  pageRef = "postingan"
+  weight = 12
+
+[[main]]
+  pre = "images"
+  name = "Galeri"
+  pageRef = "galeri"
+  weight = 14
+
+[[main]]
+  pre = "option"
+  name = "Lainnya"
+  weight = 16
+
+[[main]]
+  pre = "music-note-beamed"
+  name = "Musik"
+  url = "https://yourziro.github.io/music"
+  weight = 17
+  parent = "Lainnya"
+
+[[main]]
+  pre = "code"
+  url = "mailto:fwzyrln@gmail.com"
+  weight = 18
+  

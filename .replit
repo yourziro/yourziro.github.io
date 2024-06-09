@@ -1,0 +1,14 @@
+run = "hugo server --buildDrafts --buildFuture --bind 0.0.0.0 --port 443 --baseURL https://fwzyrln.dev--fauziralpiandi.repl.co"
+entrypoint = "content/posts/hello.md"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+deploymentTarget = "static"
+publicDir = "public"
+run = [ "sh", "-c", "hugo server --buildDrafts --buildFuture --bind 0.0.0.0 --port 443 --baseURL https://fwzyrln.dev--fauziralpiandi.repl.co" ]
+
+[[ports]]
+localPort = 443
+externalPort = 80
