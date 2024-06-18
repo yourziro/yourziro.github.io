@@ -6,7 +6,3 @@ keywords: [ "fauzira", "alpiandi" ]
 ---
 
 {{< icon"stars" >}}
-
-```js
-var pascode
-```
