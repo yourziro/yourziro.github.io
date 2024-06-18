@@ -1,4 +1,4 @@
-colorScheme = "noir"
+colorScheme = "mono"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
 
@@ -8,8 +8,7 @@ enableCodeCopy = true
 disableImageOptimization = true
 disableTextInHeader = false
 
-defaultBackgroundImage = "/imgs/background.jpg"
-defaultFeaturedImage = "/imgs/background.jpg"
+defaultBackgroundImage = "/imgs/background.webp"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -20,7 +19,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background"
-  homepageImage = "/imgs/background.jpg"
+  homepageImage = "/imgs/background.webp"
   showRecent = false
   showRecentItems = 1
   showMoreLink = false
